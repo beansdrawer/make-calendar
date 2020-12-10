@@ -1,0 +1,34 @@
+.calendar__main{
+  width: 420px;
+  margin: 0 auto;
+}
+.calendar__month, .calendar__dates{
+  float: left;
+}
+.calendar__month{
+  width:70px;
+}
+.calendar__month > p{
+  margin: 16px 0 5px 8px;
+}
+.calendar__month > h1{
+  font-size: 36px;
+  margin: 0;
+}
+.calendar__dates{
+  width:350px;
+}
+.calendar__dates > .days, .calendar__dates > .dates{
+  display: flex;
+}
+.calendar__dates > .dates{
+  flex-wrap: wrap-reverse;
+  flex-direction: row-reverse;
+}
+.days > p, .dates > p{
+  width: 50px;
+  text-align: center;
+}
+.holiday{
+  color: red;
+}

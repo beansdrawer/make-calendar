@@ -1,0 +1,11 @@
+.calendar__watermark{
+  padding: 0 10px;
+  text-align: right;
+}
+.small{
+  width: 100px;
+  height: auto;
+}
+.author{
+  margin: 5px 0 20px;
+}
